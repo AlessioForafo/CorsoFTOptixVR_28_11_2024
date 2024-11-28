@@ -9,13 +9,19 @@ Children:
     DataType: LocaleId
     ValueRank: OneDimension
     ArrayDimensions: [0]
-    Value: ["en-US"]
+    Value: ["en-US","it-IT","ru-RU"]
   - Name: LocaleFallbackList
     Type: BaseDataVariableType
     DataType: LocaleId
     ValueRank: OneDimension
     ArrayDimensions: [0]
     Value: ["en-US"]
+  - Name: MeasurementSystemMap
+    Type: BaseDataVariableType
+    DataType: MeasurementSystemMapItem
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: [{"TypeId":{"Id":235,"Namespace":1},"Body":{"From":{"TypeId":{"Id":244,"Namespace":1},"Body":{"Id":1,"NamespaceIndex":2}},"InternationalSystemOfUnits":{"TypeId":{"Id":244,"Namespace":1},"Body":{"Id":1,"NamespaceIndex":2}},"USCustomarySystem":{"TypeId":{"Id":244,"Namespace":1},"Body":{"Id":0,"NamespaceIndex":2}},"BritishImperialUnits":{"TypeId":{"Id":244,"Namespace":1},"Body":{"Id":1,"NamespaceIndex":2}}}}]
 - Name: Authentication
   Type: PropertyGroup
   Children:
@@ -28,6 +34,9 @@ Children:
       Type: PropertyType
       DataType: NodeId
       Value: "/Types/ObjectTypes/BaseObjectType/FolderType"
+  - Name: AuthenticationMode
+    Type: BaseDataVariableType
+    DataType: AuthenticationMode
 - Name: PasswordPolicy
   Type: PasswordPolicy
   Children:
@@ -72,3 +81,9 @@ Children:
     Type: PropertyType
     DataType: NodeId
     Value: "/Objects/CorsoFTOptixVR_28_11_2024/Recipes/RecipeSchema1/EditModel"
+- Name: EngineeringUnitDictionary1
+  Type: EngineeringUnitDictionary
+  DataType: EngineeringUnitDictionaryItem
+  ValueRank: OneDimension
+  ArrayDimensions: [0]
+  Value: [{"TypeId":{"Id":239,"Namespace":1},"Body":{"UnitId":0,"DisplayName":{"LocaleId":"en-US","Text":"Bottle/m"},"Description":{"LocaleId":"en-US","Text":""},"PhysicalDimension":0,"Slope":3.0,"Intercept":0.0}},{"TypeId":{"Id":239,"Namespace":1},"Body":{"UnitId":1,"DisplayName":{"LocaleId":"en-US","Text":"Bottle/h"},"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"PhysicalDimension":0,"Slope":180.0,"Intercept":0.0}}]

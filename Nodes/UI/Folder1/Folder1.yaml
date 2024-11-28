@@ -1,0 +1,4 @@
+Name: Folder1
+Type: FolderType
+Children:
+- File: UserEditor/UserEditor.yaml

@@ -1,3 +1,83 @@
 Name: Users
 Id: g=8cdfe95c558e909385d4fe7ddc9a2655
 Type: UsersCategoryFolder
+Children:
+- Name: User1
+  Id: g=a29c58726af040618cbbbbece2a3b28a
+  Type: UserType
+  Children:
+  - Name: Password
+    Id: g=4e11463e9d5772d837c427ad7212caf7
+    Type: Password
+    DataType: Password
+    ReferenceType: HasProperty
+    AccessLevel: Read
+    Children:
+    - Name: Hash
+      Id: g=f7d21b3f865cb34ea39c50ca372e2d60
+      Type: PropertyType
+      DataType: PasswordHash
+      AccessLevel: Read
+      Value: 
+       {
+        "TypeId": {
+         "Id": 252,
+         "Namespace": 1
+        },
+        "Body": {
+         "Hash": [232,208,203,80,55,141,82,236,107,24,212,108,154,119,72,144,12,99,196,96,154,96,195,118,64,160,119,53,168,203,244,107],
+         "Salt": [230,104,133,243,108,206,225,204,121,194,182,59,179,159,123,198,11,188,86,166,190,237,206,212,214,246,78,183,200,75,144,212]
+        }
+       }
+    - Name: ChangeTimestamp
+      Id: g=859a7e58d2c3088741fc263f6678dddf
+      Type: PropertyType
+      DataType: UtcTime
+      AccessLevel: Read
+      Value: "2024-11-28T10:51:29.1289332"
+    - Name: History
+      Id: g=9b987b81bb7f108e2b8a8e273b0250a9
+      Type: PropertyType
+      DataType: PasswordHash
+      AccessLevel: Read
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: [{"TypeId":{"Id":252,"Namespace":1},"Body":{"Hash":[232,208,203,80,55,141,82,236,107,24,212,108,154,119,72,144,12,99,196,96,154,96,195,118,64,160,119,53,168,203,244,107],"Salt":[230,104,133,243,108,206,225,204,121,194,182,59,179,159,123,198,11,188,86,166,190,237,206,212,214,246,78,183,200,75,144,212]}}]
+  - Class: Reference
+    Type: HasGroup
+    Target: g=2b6dd9d10bb1cb7296c1fc11cc410332
+  - Class: Reference
+    Type: HasGroup
+    Target: g=394f847cacb08ab3af6fc1cfc050ff65
+  - Name: LocaleId
+    Id: g=43fb80cbcc0480c69cfc513120217fee
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    Value: "en-US"
+- Name: User2
+  Id: g=aa447944262bc43f88457df8e5a6125e
+  Type: UserType
+  Children:
+  - Class: Reference
+    Type: HasGroup
+    Target: g=394f847cacb08ab3af6fc1cfc050ff65
+  - Name: LocaleId
+    Id: g=42b621c0310aa2c9bbada34507ef4afb
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    Value: "it-IT"
+- Name: User3
+  Id: g=d3b28837d4050a658cd62d672f214f77
+  Type: UserType
+  Children:
+  - Class: Reference
+    Type: HasGroup
+    Target: g=394f847cacb08ab3af6fc1cfc050ff65
+  - Name: LocaleId
+    Id: g=26af164351e32aa850317be744a497c0
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    Value: "ru-RU"

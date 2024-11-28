@@ -7,6 +7,8 @@ using System;
 using System.Linq;
 using UAManagedCore;
 using FTOptix.Recipe;
+using FTOptix.WebUI;
+using FTOptix.OPCUAServer;
 using OpcUa = UAManagedCore.OpcUa;
 #endregion
 
