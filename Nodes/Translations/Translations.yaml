@@ -9,76 +9,126 @@ Children:
   Value: 
    {
     "Type": 12,
-    "Dimensions": [69,2],
+    "Dimensions": [73,4],
     "Body": [
-     "","en-US",
-     "Timestamp","Timestamp",
-     "TimedShelve","Timed Shelve",
-     "Acknowledge","Acknowledge",
-     "Acknowledge All","Acknowledge All",
-     "Active","Active",
-     "Confirm","Confirm",
-     "OneShotShelve","One-Shot Shelve",
-     "Confirm All","Confirm All",
-     "Name","Name",
-     "SourceName","Source Variable",
-     "Message","Message",
-     "Acked","Acked",
-     "Confirmed","Confirmed",
-     "Severity","Severity",
-     "RecipesEditorStoreOfSchema","Store of schema",
-     "Save","Save",
-     "Delete","Delete",
-     "Load","Load",
-     "Apply","Apply",
-     "RecipeControllerRecipe","Recipe",
-     "RecipeControllerEmptyRecipeName","Recipe name is empty",
-     "RecipeControllerCreatedAndSaved","created and saved",
-     "RecipeControllerDeleted","deleted",
-     "RecipeControllerRecipeApplied","Recipe applied",
-     "RecipeControllerRecipeLoaded","Recipe loaded",
-     "RecipeControllerSaved","saved",
-     "RecipesEditorNotARecipe","is not a recipe",
-     "RecipesEditorRecipeSchemaNotFound","RecipeSchema variable not found",
-     "RecipesEditorRecipeSchemaNotSet","RecipeSchema not set",
-     "RecipesEditorRecipeNotFound","Recipe not found",
-     "RecipesEditorNotAStore","is not a store",
-     "RecipesEditorNotSet","is not set",
-     "RecipesEditorStore","Store",
-     "RecipesEditorNotFound","not found",
-     "RecipesEditorEditModelOfSchema","EditModel of schema",
-     "Old password","Old password",
-     "LoginFormPasswordExpired","Password expired",
-     "Login","Login",
-     "New password","New password",
-     "Password","Password",
-     "LoginChangePasswordFormPasswordTooShort","Password too short",
-     "Confirm password","Confirm password",
-     "Change password","Change password",
-     "Your password is expired. Please enter a new one","Your password is expired.\nPlease enter a new one.",
-     "Current User:","Current User:",
-     "Logout","Logout",
-     "LoginFormLoginSuccessful","Login successful",
-     "LoginChangePasswordFormUnsupportedOperation","Unsupported operation",
-     "LoginFormAuthenticationFailed","Authentication failed",
-     "LoginChangePasswordFormWrongOldPassword","Wrong old password",
-     "LoginChangePasswordFormUserNotFound","User not found",
-     "LoginChangePasswordFormPasswordAlreadyUsed","Password already used",
-     "LoginChangePasswordFormPasswordChangedTooRecently","Password changed too recently",
-     "LoginChangePasswordFormPasswordsDoNotMatch","Passwords do not match",
-     "Create","Create",
-     "Groups","Groups",
-     "EmptyUserList","No users in list",
-     "Cancel","Cancel",
-     "PasswordChangedTooRecently","Password changed too recently",
-     "Locale:","Locale:",
-     "CannotCreateUserWithEmptyUsername","Cannot create user with empty username",
-     "UnableToGetUsers","Unable to get users",
-     "UsernameAlreadyExists","Username already exists",
-     "UserNotFound","User not found",
-     "PasswordAlreadyUsed","Password already used in the past",
-     "PasswordTooShort","Password too short",
-     "UnsupportedOperation","Unsupported operation",
-     "ChangesAppliedSuccessfully","Changes applied successfully"
+     "","en-US","it-IT","ru-RU",
+     "Timestamp","Timestamp","","",
+     "TimedShelve","Timed Shelve","","",
+     "Acknowledge","Acknowledge","","",
+     "Acknowledge All","Acknowledge All","","",
+     "Active","Active","","",
+     "Confirm","Confirm","","",
+     "OneShotShelve","One-Shot Shelve","","",
+     "Confirm All","Confirm All","","",
+     "Name","Name","","",
+     "SourceName","Source Variable","","",
+     "Message","Message","","",
+     "Acked","Acked","","",
+     "Confirmed","Confirmed","","",
+     "Severity","Severity","","",
+     "RecipesEditorStoreOfSchema","Store of schema","","",
+     "Save","Save","","",
+     "Delete","Delete","","",
+     "Load","Load","","",
+     "Apply","Apply","","",
+     "RecipeControllerRecipe","Recipe","","",
+     "RecipeControllerEmptyRecipeName","Recipe name is empty","","",
+     "RecipeControllerCreatedAndSaved","created and saved","","",
+     "RecipeControllerDeleted","deleted","","",
+     "RecipeControllerRecipeApplied","Recipe applied","","",
+     "RecipeControllerRecipeLoaded","Recipe loaded","","",
+     "RecipeControllerSaved","saved","","",
+     "RecipesEditorNotARecipe","is not a recipe","","",
+     "RecipesEditorRecipeSchemaNotFound","RecipeSchema variable not found","","",
+     "RecipesEditorRecipeSchemaNotSet","RecipeSchema not set","","",
+     "RecipesEditorRecipeNotFound","Recipe not found","","",
+     "RecipesEditorNotAStore","is not a store","","",
+     "RecipesEditorNotSet","is not set","","",
+     "RecipesEditorStore","Store","","",
+     "RecipesEditorNotFound","not found","","",
+     "RecipesEditorEditModelOfSchema","EditModel of schema","","",
+     "Old password","Old password","","",
+     "LoginFormPasswordExpired","Password expired","","",
+     "Login","Login","","",
+     "New password","New password","","",
+     "Password","Password","","",
+     "LoginChangePasswordFormPasswordTooShort","Password too short","","",
+     "Confirm password","Confirm password","","",
+     "Change password","Change password","","",
+     "Your password is expired. Please enter a new one","Your password is expired.\nPlease enter a new one.","","",
+     "Current User:","Current User:","","",
+     "Logout","Logout","","",
+     "LoginFormLoginSuccessful","Login successful","","",
+     "LoginChangePasswordFormUnsupportedOperation","Unsupported operation","","",
+     "LoginFormAuthenticationFailed","Authentication failed","","",
+     "LoginChangePasswordFormWrongOldPassword","Wrong old password","","",
+     "LoginChangePasswordFormUserNotFound","User not found","","",
+     "LoginChangePasswordFormPasswordAlreadyUsed","Password already used","","",
+     "LoginChangePasswordFormPasswordChangedTooRecently","Password changed too recently","","",
+     "LoginChangePasswordFormPasswordsDoNotMatch","Passwords do not match","","",
+     "Create","Create","","",
+     "Groups","Groups","","",
+     "EmptyUserList","No users in list","","",
+     "Cancel","Cancel","","",
+     "PasswordChangedTooRecently","Password changed too recently","","",
+     "Locale:","Locale:","","",
+     "CannotCreateUserWithEmptyUsername","Cannot create user with empty username","","",
+     "UnableToGetUsers","Unable to get users","","",
+     "UsernameAlreadyExists","Username already exists","","",
+     "UserNotFound","User not found","","",
+     "PasswordAlreadyUsed","Password already used in the past","","",
+     "PasswordTooShort","Password too short","","",
+     "UnsupportedOperation","Unsupported operation","","",
+     "ChangesAppliedSuccessfully","Changes applied successfully","","",
+     "hi","Hi!","Ciao!","Привет!",
+     "motor","Motor","","",
+     "myKey","","","",
+     "Spindle","Spindle","",""
     ]
    }
+- Name: ImportAndExportTranslations
+  Type: NetLogic
+  WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
+  Children:
+  - Name: BehaviourStartPriority
+    Type: BehaviourStartPriorityVariableType
+    DataType: Byte
+    Value: 180
+  - Name: CSVPath
+    Type: BaseDataVariableType
+    DataType: AbsoluteResourceUri
+  - Class: Method
+    Name: ExportTranslations
+  - Class: Method
+    Name: ImportTranslations
+  - Name: CharacterSeparator
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ","
+  - Name: WrapFields
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: LocalizationDictionary
+    Type: NodePointer
+    DataType: NodeId
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/VariableTypes/BaseVariableType/LocalizationDictionary"
+  - Name: ns=4;LibraryReference
+    Type: ObjectLibraryReference
+    DataType: ObjectLibraryReferenceDataType
+    Value: 
+     {
+      "TypeId": {
+       "Id": 72,
+       "Namespace": 4
+      },
+      "Body": {
+       "libraryGuid": "f0701375ee41467993d632db6a8fdaa5",
+       "objectGuid": "e7cab90d0ab7e8b5b02218e38bca9a0e",
+       "objectVersion": 1,
+       "highestIgnoredVersion": 0
+      }
+     }

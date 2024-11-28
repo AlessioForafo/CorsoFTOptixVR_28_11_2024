@@ -8,6 +8,7 @@ using FTOptix.NetLogic;
 using FTOptix.Core;
 using FTOptix.UI;
 using FTOptix.WebUI;
+using FTOptix.OPCUAServer;
 #endregion
 
 public class LoginButtonLogic : BaseNetLogic

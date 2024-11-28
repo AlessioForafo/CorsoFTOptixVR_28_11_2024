@@ -3,6 +3,7 @@ using UAManagedCore;
 using FTOptix.NetLogic;
 using FTOptix.UI;
 using FTOptix.WebUI;
+using FTOptix.OPCUAServer;
 #endregion
 
 public class UserEditorPanelLoaderLogic : BaseNetLogic

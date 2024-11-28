@@ -1,13 +1,78 @@
 Name: Model
+Id: g=3676b1a4dfebc3d35bb9d28eca356c1a
 Type: ModelCategoryFolder
 Children:
 - Name: Temperatura
+  Id: g=1188100b5282dcbb86e1387e6b34d19a
   Type: BaseDataVariableType
   DataType: Int32
+  Value: 42
+  Children:
+  - Name: ns=0;EngineeringUnits
+    Id: g=cac35ce5e86db4da8d03d5610cfe1955
+    Type: EUInformationType
+    DataType: EUInformation
+    DisplayName: {"NamespaceIndex":0,"TextId":"EngineeringUnitsDisplayName"}
+    Children:
+    - Name: UnitId
+      Id: g=eded1e8acbc71cf7b0631846a0907fa4
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 4408652
+    - Name: DisplayName
+      Id: g=4a2bb9baa711d5ec7479c461b375057d
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+    - Name: Description
+      Id: g=defab12d119f931ade00a5243931ab53
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+- Name: AnalogVariable1
+  Id: g=50c5714a89774c331efd66deec43859e
+  Type: AnalogItemType
+  DataType: Float
+  Children:
+  - Name: EURange
+    Id: g=cff8a3ca6fe7c6d1a51986f0afa792c1
+    Type: RangeType
+    DataType: Range
+    Children:
+    - Name: Low
+      Id: g=7aa0714953cc8d7d8244bfc47d9b1fd8
+      Type: BaseDataVariableType
+      DataType: Double
+    - Name: High
+      Id: g=416cb40f92e3fa4a98d65f32139e47df
+      Type: BaseDataVariableType
+      DataType: Double
+  - Name: EngineeringUnits
+    Id: g=30cc9b0f406d871432e1720034c6566f
+    Type: EUInformationType
+    DataType: EUInformation
+    Children:
+    - Name: UnitId
+      Id: g=ed84a28536fd966703f7668a3e25f976
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 4408652
+    - Name: DisplayName
+      Id: g=211b7543078849c0f660c29adca35746
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+    - Name: Description
+      Id: g=a8d6ac03fb411b89df5404a053f4a3ea
+      Type: BaseDataVariableType
+      DataType: LocalizedText
 - Name: Pressione
+  Id: g=fbc5918bc247e4dff42e4bf2959d0b68
   Type: BaseDataVariableType
   DataType: Int32
 - Name: Umidita
+  Id: g=b4e03e787ea72535b995471e6e4e9c1f
   Type: BaseDataVariableType
   DataType: Int32
 - File: VariabiliRicetta/VariabiliRicetta.yaml
+- Name: BottiglieBPM
+  Id: g=ac8c986699eb55523db2d3054c946a4d
+  Type: BaseDataVariableType
+  DataType: Int32

@@ -49,6 +49,12 @@ Children:
   - Class: Reference
     Type: HasGroup
     Target: g=394f847cacb08ab3af6fc1cfc050ff65
+  - Name: LocaleId
+    Id: g=43fb80cbcc0480c69cfc513120217fee
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    Value: "en-US"
 - Name: User2
   Id: g=aa447944262bc43f88457df8e5a6125e
   Type: UserType
@@ -56,6 +62,12 @@ Children:
   - Class: Reference
     Type: HasGroup
     Target: g=394f847cacb08ab3af6fc1cfc050ff65
+  - Name: LocaleId
+    Id: g=42b621c0310aa2c9bbada34507ef4afb
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    Value: "it-IT"
 - Name: User3
   Id: g=d3b28837d4050a658cd62d672f214f77
   Type: UserType
@@ -63,3 +75,9 @@ Children:
   - Class: Reference
     Type: HasGroup
     Target: g=394f847cacb08ab3af6fc1cfc050ff65
+  - Name: LocaleId
+    Id: g=26af164351e32aa850317be744a497c0
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    Value: "ru-RU"

@@ -179,6 +179,7 @@ Children:
   - Name: EnableVirtualKeyboard
     Type: BaseDataVariableType
     DataType: Boolean
+    Value: true
   - Name: StartWindow
     Type: NodePointer
     DataType: NodeId
