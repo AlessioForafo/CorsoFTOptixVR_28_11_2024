@@ -89,16 +89,24 @@ Project:
    Uri: 'urn:FTOptix:Recipe:Net'
    Module: FTOptix.Recipe.Net
    Version: 1.0
+  23:
+   Uri: 'urn:FTOptix:WebUI'
+   Module: FTOptix.WebUI
+   Version: 1.2
+  24:
+   Uri: 'urn:FTOptix:WebUI:Net'
+   Module: FTOptix.WebUI.Net
+   Version: 1.2
  Statistics:
-  TotalNodeCount: 1472
-  Objects: 301
-  ObjectTypes: 11
-  Variables: 1141
+  TotalNodeCount: 2915
+  Objects: 583
+  ObjectTypes: 26
+  Variables: 2278
   VariableTypes: 0
   DataTypes: 0
-  Methods: 19
-  References: 42
+  Methods: 28
+  References: 74
   ReferenceTypes: 0
-  Files: 22
+  Files: 26
  Nodes:
  - File: Nodes/CorsoFTOptixVR_28_11_2024.yaml
