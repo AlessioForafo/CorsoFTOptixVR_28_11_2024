@@ -208,6 +208,9 @@ Children:
       Value: "/Types/ObjectTypes/BaseObjectType/UserType"
   - Name: Sessions
     Type: BaseObjectType
+  - Name: TextRenderType
+    Type: BaseDataVariableType
+    DataType: TextRenderTypeEnum
 - Name: MainWindow
   Id: g=01a7e8933afd7c95fe894b0859308138
   Supertype: Window

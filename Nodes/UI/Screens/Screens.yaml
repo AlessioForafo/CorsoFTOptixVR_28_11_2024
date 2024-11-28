@@ -499,7 +499,6 @@ Children:
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
-      ModellingRule: Optional
       Value: 30.0
     - Name: TopMargin
       Type: BaseVariableType
