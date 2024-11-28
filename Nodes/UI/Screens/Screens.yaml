@@ -1,0 +1,43 @@
+Name: Screens
+Type: ScreensCategoryFolder
+Children:
+- Name: Screen1
+  Id: g=f387eedba095a926fb668bf3b8cdc052
+  Supertype: Screen
+  ReferenceType: HasComponent
+- Name: Screen2
+  Id: g=d271524cc97b886005483ac46dbb6e2e
+  Supertype: Screen
+  ReferenceType: HasComponent
+- Name: Screen3
+  Id: g=3d3efc82fd5b4de2fbb3db7bab0dd551
+  Supertype: Screen
+  ReferenceType: HasComponent
+- Name: Screen4
+  Id: g=e8b3e1a207a0cdef848034cf309fb35a
+  Supertype: Screen
+  ReferenceType: HasComponent
+- Name: Screen5
+  Id: g=fea6d7ec1fd8378d78b25de88e00f8ba
+  Supertype: Screen
+  ReferenceType: HasComponent
+- Name: Screen6
+  Id: g=1ac26e804f9cb96b1bb47608d844e78d
+  Supertype: Screen
+  ReferenceType: HasComponent
+- Name: Screen7
+  Id: g=1c3aa1673ed1c09fcbe8059b7ef4f7c9
+  Supertype: Screen
+  ReferenceType: HasComponent
+- Name: Screen8
+  Id: g=abf6ee6a056651b5299f0ad6afbc6653
+  Supertype: Screen
+  ReferenceType: HasComponent
+- Name: Screen9
+  Id: g=71f87d5c58ea7a31f58802654e0034f9
+  Supertype: Screen
+  ReferenceType: HasComponent
+- Name: Screen10
+  Id: g=2be764f62f9bee26ef7091a8c1bccecb
+  Supertype: Screen
+  ReferenceType: HasComponent
