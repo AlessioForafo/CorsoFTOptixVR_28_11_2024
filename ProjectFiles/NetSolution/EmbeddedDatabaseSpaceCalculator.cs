@@ -9,6 +9,7 @@ using UAManagedCore;
 using FTOptix.Recipe;
 using FTOptix.WebUI;
 using FTOptix.OPCUAServer;
+using FTOptix.Alarm;
 using OpcUa = UAManagedCore.OpcUa;
 #endregion
 

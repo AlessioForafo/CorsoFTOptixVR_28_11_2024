@@ -1,3 +1,111 @@
 Name: Alarms
 Id: g=3293e7cd8de0bb06cc725e017a984470
 Type: AlarmsCategoryFolder
+Children:
+- Name: MioAllarme
+  Id: g=b413f2e17b5349c7ba63e54af9ce03c3
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=a8e958c8fcc9d5f10e636214ee634fcc
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=c91eaa66c75a9fa27f1c46c993cfd9f3
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=411abe8bc64fb5658bb5dd736b93621a
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MioAllarme
+  Id: g=4a1be63e384b42eca1a44c4e10a50329
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=307bd8b041a8f5a68ac1c8f5a5167f24
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=9cccca2d428c1727720ce509f24a0a94
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=6ee4a5e1ab090cbc05c97d858b3a1f93
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=710ac35fc930f6bc86ad50ff55b02c6a
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"ciao"}

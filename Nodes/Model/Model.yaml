@@ -76,3 +76,7 @@ Children:
   Id: g=ac8c986699eb55523db2d3054c946a4d
   Type: BaseDataVariableType
   DataType: Int32
+- Name: UmiditaCalcolata
+  Id: g=f9c392039a5c90312f583662656cc44c
+  Type: BaseDataVariableType
+  DataType: Int32

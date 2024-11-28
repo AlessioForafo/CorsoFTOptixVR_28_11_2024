@@ -11,6 +11,7 @@ using FTOptix.NetLogic;
 using FTOptix.Core;
 using FTOptix.Recipe;
 using FTOptix.OPCUAServer;
+using FTOptix.Alarm;
 #endregion
 
 public class ImportAndExportTranslations : BaseNetLogic

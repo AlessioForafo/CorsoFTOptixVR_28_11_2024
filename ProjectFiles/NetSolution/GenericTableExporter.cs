@@ -15,6 +15,7 @@ using FTOptix.SQLiteStore;
 using FTOptix.Core;
 using FTOptix.Recipe;
 using FTOptix.WebUI;
+using FTOptix.Alarm;
 #endregion
 
 public class GenericTableExporter : BaseNetLogic
